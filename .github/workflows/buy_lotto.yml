@@ -2,7 +2,7 @@ name: Buy lotto
 on:
   schedule:
 #    - cron: 0 10 * * 1 # every Monday on 07:00 PM (KST)
-    - cron: */5 * * *  # for test
+    - cron: '*/5 * * * *' # Test only
   workflow_dispatch:
 
 jobs:
